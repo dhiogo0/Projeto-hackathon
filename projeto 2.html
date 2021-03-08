@@ -1,0 +1,84 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 2 - css</title>
+<style>
+* {
+    margin: 0;
+}
+.vermelho {
+background-color: red;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+height: 25vh;
+}
+.laranja {
+background-color: orange;
+display: flex;
+height: 25vh;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+}
+.setor1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+    .setor1 .amarelo {
+    background-color: yellow;
+    height: 12vh;
+    }
+
+    .setor1 .verde {
+        background-color: green;
+        height: 12vh;
+        display: flex;
+        align-items: center;
+    }
+
+.setor2 {
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    .setor2 .azul{
+    background-color: blue;
+    width: 50vw;
+    }  
+    
+    .setor2 .roxo{
+        background-color: purple;
+        width: 50vw;
+        display: flex;
+    
+    }
+
+
+</style>
+
+</head>
+<body>
+    <div class="vermelho"><p>DIV 1</p></div>
+
+    <div class="laranja"><p>DIV 2</p></div>
+
+    <div class="setor1">
+        <div class="amarelo">DIV 3</div>
+        <div class="verde">DIV 4</div>
+    </div>
+    
+    <div class="setor2">
+        <div class="azul"><p>DIV 5</p></div>
+        <div class="roxo"><p>DIV 6</p></div>
+    </div>
+  
+</body>
+</html>
